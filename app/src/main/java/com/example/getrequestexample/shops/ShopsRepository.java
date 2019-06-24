@@ -54,13 +54,13 @@ public class ShopsRepository {
                 finalShops.addAll(SetDistanceData());
                 Collections.sort(finalShops);
                 callback.onShopsLoaded(finalShops);
-                Log.i("RESPONCE REMOTE LOAD SHOPS= ", "TRUE");
+                Log.i("RESPONCE REMOTE LOAD SHOPS  = ", "TRUE");
             }
 
             @Override
             public void onFailure(Call<List<Shop>> call, Throwable t) {
                 Log.i("FAILURE REMOTE LOAD SHOPS= ", "TRUE");
-                callback.onDataNotAvailable();int i=3;
+                callback.onDataNotAvailable();
             }
 
             private List<Shop> SetDistanceData() {
