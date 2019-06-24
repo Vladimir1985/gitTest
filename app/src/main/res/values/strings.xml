@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GetRequestExample</string>
+
+    //Activity name
+    <string name="main_activity">Список магазинов</string>
+    <string name="discount_activity">Магазин: %1$s</string>
+    <string name="discount">Акции: %1$s</string>
+    <string name="title_activity_maps_shop">Map</string>
+
+    //View element text
+    <string name="shop_name">Имя магазина</string>
+    <string name="working_hours">Часы работы</string>
+    <string name="open_close">Открыто-Закрыто</string>
+    <string name="shop_type">Тип магазина</string>
+
+    <string name="discount_name">Имя акции</string>
+    <string name="working_days">Дни действия акции</string>
+    <string name="old_price">Старая цена</string>
+    <string name="new_price">Новая цена</string>
+
+    //Внутренние значения
+    <string name="open">Открыто</string>
+    <string name="close">Закрыто</string>
+    <string name="title_activity_discounts">DiscountsActivity</string>
+    <string name="magnit_kosmetic">Магнит Косметик</string>
+    <string name="magnit_giper">Гипермаркет Магнит</string>
+    <string name="magnit_home">Магнит у Дома</string>
+    <string name="magnit_default">Магнит</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps_nearest_shops">Map</string>
+
+</resources>
